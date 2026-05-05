@@ -1,0 +1,11 @@
+MongoParseError: options usenewurlparser, useunifiedtopology are not supported
+    at parseOptions (E:\Recipe Finder\server\node_modules\mongodb\lib\connection_string.js:273:15)
+    at new MongoClient (E:\Recipe Finder\server\node_modules\mongodb\lib\mongo_client.js:67:61)
+    at NativeConnection.createClient (E:\Recipe Finder\server\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:334:14)
+    at NativeConnection.openUri (E:\Recipe Finder\server\node_modules\mongoose\lib\connection.js:1074:34)
+    at Mongoose.connect (E:\Recipe Finder\server\node_modules\mongoose\lib\mongoose.js:469:15)
+    at testConnection (E:\Recipe Finder\server\test-conn.js:7:20)
+    at Object.<anonymous> (E:\Recipe Finder\server\test-conn.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
